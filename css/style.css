@@ -1,0 +1,14 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+}
+
+@media only screen and (min-width: 768px) {
+  ul {
+    display: flex;
+  }
+  ul li {
+    padding-right: 65px;
+  }
+}
