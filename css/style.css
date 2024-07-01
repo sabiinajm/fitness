@@ -1,14 +1,257 @@
-nav {
-  display: flex;
-  justify-content: space-between;
-  background-color: #333;
+.green-txt {
+  color: #a1c927;
+}
+.green-bg {
+  background-color: #a1c927;
+}
+.red-txt {
+  color: #fd634d;
+}
+.red-bg {
+  background-color: #fd634d;
+}
+.white-txt {
+  color: #fff;
+}
+.grey-txt {
+  color: #656e74;
 }
 
+.white-bg {
+  background-color: #fff;
+}
+nav {
+  padding: 40px 52px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#menu li {
+  font: 0.8em "Avenir Next Rounded Std";
+  text-transform: uppercase;
+  padding-top: 30px;
+  text-align: center;
+}
+header {
+  height: 100vh;
+  background: url(/img/Fitness.jpg) top/cover no-repeat;
+}
+#main-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  text-transform: uppercase;
+  font-family: "Myriad Pro";
+}
+#main-text h2 {
+  font-size: 2rem;
+}
+#main-text p {
+  font-size: 0.9rem;
+}
+.row4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box {
+  padding: 20px;
+}
+.icons {
+  height: 40px;
+}
+.box h3 {
+  margin: 26px 0;
+  font: 1.3rem "Open Sans";
+}
+.box p {
+  font: 0.8rem/1.5 "Proxima Nova";
+  padding-bottom: 24px;
+}
+#your-body {
+  flex-direction: row-reverse;
+}
+.text-part h4 {
+  font: 400 0.8rem "Montserrat";
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.text-part h2 {
+  font: 300 1.8rem "Open Sans";
+  text-transform: uppercase;
+}
+.text-part p {
+  font: 400 0.8rem/1.6 "Open Sans";
+}
+.text-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+}
+#section2 .text-part,
+#section3 .text-part {
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  padding: 0;
+}
+
+
+.card2 .text-part h4 {
+  visibility: hidden;
+}
+#section3 .card2 .text-part h4 {
+  visibility: visible;
+}
+.drop {
+  height: 22px;
+  opacity: 0.3;
+}
+#fitness-first .image-part {
+  background: url(/img/fitnessfirst.jpg) center/cover;
+}
+#your-body .image-part {
+  background: url(/img/yourbody.jpg) center/cover;
+}
+.text-part a {
+  padding: 10px 0;
+}
+#section2,
+#section3 {
+  display: flex;
+  justify-content: center;
+}
+#section3 {
+  flex-direction: row-reverse;
+}
+.card-img1 {
+  background: url(/img/lifestyle.jpg) right/cover;
+}
+.card-img2 {
+  background: url(/img/fun.jpg) center/cover;
+}
+.card-img3 {
+  background: url(/img/food2.jpg) right/cover;
+}
+.card-img4 {
+  background: url(/img/food.jpg) center/cover;
+}
+.h50 {
+  min-height: 50vh;
+}
+.h40 {
+  min-height: 40vh;
+}
+#last {
+  background: url(/img/last.jpg) top/cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#last h2 {
+  font: 400 2rem "Open Sans";
+}
+#last p {
+  font: 400 1rem/1.4 "Open Sans";
+}
+footer {
+  background: #0c1119;
+  display: flex;
+  flex-direction: column;
+  padding-top: 67px;
+}
+footer h4 {
+  color: #fff;
+  font: 400 0.9rem "Open Sans";
+  padding-bottom: 23px;
+}
+footer p {
+  color: #8297a7;
+  font: 400 0.8rem "Open Sans";
+}
+.row {
+  padding: 0 40px 40px 40px;
+}
+#join {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+input {
+  height: 45px;
+  width: 90%;
+  border-radius: 2px;
+  padding-left: 20px;
+  margin: 10px;
+  outline: none;
+}
+#submit {
+  width: 150px;
+  background-color: #a1c927;
+  color: #fff;
+  padding: 0;
+}
 @media only screen and (min-width: 768px) {
-  ul {
+  .container {
+    max-width: 80vw;
+    margin: auto;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+  #menu {
     display: flex;
   }
-  ul li {
-    padding-right: 65px;
+  #menu li {
+    padding: 0 65px 0 0;
+  }
+  #main-text {
+    bottom: 100px;
+    left: 100px;
+  }
+  #main-text h2 {
+    font-size: 2.5rem;
+  }
+  .row4 {
+    height: 470px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .box {
+    width: 20%;
+  }
+  #fitness-first,
+  #your-body {
+    display: flex;
+    justify-content: center;
+  }
+  .w30 {
+    width: 30%;
+  }
+  .w50 {
+    width: 50%;
+  }
+  #last h2 {
+    font-size: 2.8rem;
+  }
+  .rows {
+    display: flex;
+  }
+  #join {
+    flex-direction: row;
+    justify-content: flex-end;
+    
+  }
+  input {
+    width: 250px;
+    margin: 2px;
   }
 }

@@ -5,16 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fitness</title>
     <!-- favicon worked after i ass ? end of href -->
-    <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/font.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="#"><img src="/img/logo.png" alt="logo pic" /></a>
-        <ul>
+        <a href="#" id="logo"><img src="/img/logo.png" alt="logo pic" /></a>
+        <ul id="menu" class="white-txt">
           <li><a href="">About</a></li>
           <li><a href="">How It Works</a></li>
           <li><a href="">Services</a></li>
@@ -22,8 +29,177 @@
           <li><a href="">Contact</a></li>
         </ul>
       </nav>
+      <div id="main-text" class="white-txt">
+        <h2>Fitness in a can<span class="green-txt">/</span></h2>
+        <h4>yes you can<span class="red-txt">/</span></h4>
+      </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <section class="green-bg">
+        <div class="container">
+          <div class="row4 white-txt">
+            <article class="box">
+              <img class="icons" src="/img/briefcase.svg" alt="briefcase" />
+              <h3>Resources</h3>
+              <p>
+                Easily manage your inspiration and work-in-progress by dragging
+                images into projects and sharable client groups.
+              </p>
+              <a href="#"><p>Explore more →</p></a>
+            </article>
+            <article class="box">
+              <img class="icons" src="/img/gauge.svg" alt="gauge" />
+              <h3>Training & Funding</h3>
+              <p>
+                Easily manage your inspiration and work-in-progress by dragging
+                images into projects and sharable client groups.
+              </p>
+              <a href="#"><p>Browse training →</p></a>
+            </article>
+            <article class="box">
+              <img class="icons" src="/img/cloud.svg" alt="cloud" />
+              <h3>Connect</h3>
+              <p>
+                Easily manage your inspiration and work-in-progress by dragging
+                images into projects and sharable client groups.
+              </p>
+              <a href="#"><p>Connect now →</p></a>
+            </article>
+            <article class="box">
+              <img class="icons" src="/img/message.svg" alt="message" />
+              <h3>Communicate</h3>
+              <p>
+                Easily manage your inspiration and work-in-progress by dragging
+                images into projects and sharable client groups.
+              </p>
+              <a href="#"><p>Start now →</p></a>
+            </article>
+          </div>
+        </div>
+        <div id="fitness-first" class="h50 container">
+          <div class="text-part w30 white-bg">
+            <h4 class="red-txt">It's all about</h4>
+            <h2 class="green-txt">Fitness first</h2>
+            <img class="drop" src="/img/drop.png" alt="drop" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud.
+            </p>
+            <a href="#" class="green-txt"><u>Read More</u></a>
+          </div>
+          <div class="image-part w50 h50"></div>
+        </div>
+        <div id="your-body" class="h50 container">
+          <div class="text-part w30 white-bg">
+            <h4 class="red-txt">love your</h4>
+            <h2 class="green-txt">body</h2>
+            <img class="drop" src="/img/drop.png" alt="drop" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud.
+            </p>
+            <a href="#" class="green-txt"><u>Read More</u></a>
+          </div>
+          <div class="image-part w50 h50"></div>
+        </div>
+      </section>
+      <section class="red-bg">
+        <div id="section2" class="container">
+          <div class="card1 w30">
+            <div class="card-img1 h40"></div>
+            <div class="text-part white-bg h40">
+              <h4 class="red-txt">Track your</h4>
+              <h2 class="green-txt">lifestyle</h2>
+              <p class="grey-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud.
+              </p>
+            </div>
+          </div>
+          <div class="card2 w50">
+            <div class="card-img2 h40"></div>
+            <div class="text-part white-txt green-bg h40">
+              <h4>idk</h4>
+              <h2>summer of fun</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="section3" class="container">
+          <div class="card1 w30 white-txt">
+            <div class="card-img3 h40"></div>
+            <div class="text-part green-bg h40">
+              <h4>Improve your</h4>
+              <h2>eating habits</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud.
+              </p>
+            </div>
+          </div>
+          <div class="card2 w50">
+            <div class="card-img4 h40"></div>
+            <div class="text-part grey-txt white-bg h40">
+              <h4 class="red-txt">Track your</h4>
+              <h2 class="green-txt">get involved in yourself</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="last" class="white-txt">
+        <h2>We launch leaders with big dreams</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <div id="about">
+        <div class="container">
+          <div class="rows">
+            <div class="row">
+              <h4>Resources</h4>
+              <p>
+                Easily manage your inspiration and work-in-progress by dragging
+                images into projects and sharable client groups.
+                work-in-progress by dragging images into projects and sharable
+                client group
+              </p>
+            </div>
+            <div class="row">
+              <h4>About us</h4>
+              <p>
+                Easily manage your inspiration and work-in-progress by dragging
+                images into projects and sharable client groups.
+                work-in-progress by dragging images into projects and sharable
+                client group
+              </p>
+            </div>
+            <div class="row">
+              <h4>Stay in touch</h4>
+              <img src="/img/icons.png" alt="icons" />
+            </div>
+          </div>
+        <div id="join">
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Your Email" />
+          <input id="submit" type="submit" value="Join" />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
