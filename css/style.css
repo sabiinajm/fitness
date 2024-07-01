@@ -164,7 +164,7 @@ footer {
   background: #0c1119;
   display: flex;
   flex-direction: column;
-  padding-top: 67px;
+  padding: 67px 0;
 }
 footer h4 {
   color: #fff;
